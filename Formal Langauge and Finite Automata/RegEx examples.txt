@@ -1,0 +1,6 @@
+RegEx for storing names in form of Last, First, M.
+/^(\S+)\s+(\S).*\s+(\S+)$/mg
+
+RegEx for storing phone numbers in form (###) ###-####
+/^.*(\d{3}).*(\d{3}).*(\d{4})/mg
+//note: it takes the biggest expression it can find, meaning this will take the last 10 digits
